@@ -13,6 +13,12 @@
 		F2FF2A0B22E37A300054F22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FF2A0A22E37A300054F22D /* Assets.xcassets */; };
 		F2FF2A0E22E37A300054F22D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FF2A0C22E37A300054F22D /* LaunchScreen.storyboard */; };
 		F2FF2A1922E37A300054F22D /* OperationsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF2A1822E37A300054F22D /* OperationsSampleTests.swift */; };
+		F2FF2A2422E37CF40054F22D /* NetworkHelperDispatchGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF2A2322E37CF40054F22D /* NetworkHelperDispatchGroup.swift */; };
+		F2FF2A2622E37EFD0054F22D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF2A2522E37EFD0054F22D /* Models.swift */; };
+		F2FF2A2822E412DA0054F22D /* NetworkHelperOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF2A2722E412DA0054F22D /* NetworkHelperOperationQueue.swift */; };
+		F2FF2A2A22E413090054F22D /* SampleNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF2A2922E413090054F22D /* SampleNetworkHelper.swift */; };
+		F2FF2A2C22E4BED50054F22D /* NetworkHelperSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF2A2B22E4BED50054F22D /* NetworkHelperSemaphore.swift */; };
+		F2FF2A2E22E5060F0054F22D /* MoreOnQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF2A2D22E5060F0054F22D /* MoreOnQueues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		F2FF2A1422E37A300054F22D /* OperationsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperationsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FF2A1822E37A300054F22D /* OperationsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsSampleTests.swift; sourceTree = "<group>"; };
 		F2FF2A1A22E37A300054F22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FF2A2322E37CF40054F22D /* NetworkHelperDispatchGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelperDispatchGroup.swift; sourceTree = "<group>"; };
+		F2FF2A2522E37EFD0054F22D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F2FF2A2722E412DA0054F22D /* NetworkHelperOperationQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelperOperationQueue.swift; sourceTree = "<group>"; };
+		F2FF2A2922E413090054F22D /* SampleNetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNetworkHelper.swift; sourceTree = "<group>"; };
+		F2FF2A2B22E4BED50054F22D /* NetworkHelperSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelperSemaphore.swift; sourceTree = "<group>"; };
+		F2FF2A2D22E5060F0054F22D /* MoreOnQueues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreOnQueues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +91,16 @@
 			children = (
 				F2FF2A0322E37A2F0054F22D /* AppDelegate.swift */,
 				F2FF2A0522E37A2F0054F22D /* ViewController.swift */,
+				F2FF2A2D22E5060F0054F22D /* MoreOnQueues.swift */,
+				F2FF2A2322E37CF40054F22D /* NetworkHelperDispatchGroup.swift */,
+				F2FF2A2722E412DA0054F22D /* NetworkHelperOperationQueue.swift */,
+				F2FF2A2B22E4BED50054F22D /* NetworkHelperSemaphore.swift */,
 				F2FF2A0722E37A2F0054F22D /* Main.storyboard */,
 				F2FF2A0A22E37A300054F22D /* Assets.xcassets */,
 				F2FF2A0C22E37A300054F22D /* LaunchScreen.storyboard */,
 				F2FF2A0F22E37A300054F22D /* Info.plist */,
+				F2FF2A2522E37EFD0054F22D /* Models.swift */,
+				F2FF2A2922E413090054F22D /* SampleNetworkHelper.swift */,
 			);
 			path = OperationsSample;
 			sourceTree = "<group>";
@@ -198,7 +216,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2FF2A0622E37A2F0054F22D /* ViewController.swift in Sources */,
+				F2FF2A2422E37CF40054F22D /* NetworkHelperDispatchGroup.swift in Sources */,
 				F2FF2A0422E37A2F0054F22D /* AppDelegate.swift in Sources */,
+				F2FF2A2622E37EFD0054F22D /* Models.swift in Sources */,
+				F2FF2A2A22E413090054F22D /* SampleNetworkHelper.swift in Sources */,
+				F2FF2A2E22E5060F0054F22D /* MoreOnQueues.swift in Sources */,
+				F2FF2A2C22E4BED50054F22D /* NetworkHelperSemaphore.swift in Sources */,
+				F2FF2A2822E412DA0054F22D /* NetworkHelperOperationQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
